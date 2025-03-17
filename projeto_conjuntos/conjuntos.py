@@ -10,7 +10,7 @@ def criar_conjunto(x,ind):
     conjunto =[]
     for i in range(x):
         print("Valor do elemento ",i+1) 
-        num = (input()) 
+        num = int(input()) 
         conjunto.append(num) 
         print(conjunto)
     print("\n\n%c = "%alfabeto[ind],conjunto)
@@ -45,7 +45,7 @@ def op():
                 case "-":
                     resultado = list(set(conjuntos[indice_conjunto[0]]) - set(conjuntos[indice_conjunto[1]]))
     conjuntos.append(resultado)
-    #print(indice_conjunto,operacaoescrita,resultado)
+    print(indice_conjunto,operacaoescrita,resultado)
     indice_conjunto.clear()
     print("\n----Conjuntos----")
     for i in range(len(conjuntos)):
