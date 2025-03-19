@@ -19,4 +19,4 @@ while leitura:
     leitura = leitura = list(violao.readline())
     linha_atual = linha_atual + 1
 
-
+#

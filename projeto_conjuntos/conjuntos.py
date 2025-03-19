@@ -52,3 +52,4 @@ def op():
         print(alfabeto[i],"=",conjuntos[i])
 while rodando:
     op()
+#
